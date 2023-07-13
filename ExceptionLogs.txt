@@ -1,0 +1,49 @@
+Exception on 20-06-2023 16:56:59
+ConsoleApp1.InsufficientFundsException
+
+Stack Trace:
+   at ConsoleApp1.FundsTransfer.Transfer(BankAccount source, BankAccount destination, Double amount) in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 83
+   at ConsoleApp1.Program.Main() in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 120
+
+Message:
+Insufficient balance in the source account. The current balance is 5000
+
+
+
+Exception on 20-06-2023 16:58:04
+System.ArgumentNullException
+
+Stack Trace:
+   at ConsoleApp1.FundsTransfer.Transfer(BankAccount source, BankAccount destination, Double amount) in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 96
+   at ConsoleApp1.Program.Main() in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 120
+
+Message:
+You have supplied null value to 'destnation' parameter.
+
+
+
+Exception on 20-06-2023 16:59:59
+System.ArgumentException
+
+Stack Trace:
+   at ConsoleApp1.BankAccount.set_CurrentBalance(Double value) in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 32
+   at ConsoleApp1.Program.Main() in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 112
+
+Message:
+The value of 'Current Balance' should be a postive number. You have supplied -6000
+Parameter name: CurrentBalance
+
+
+
+Exception on 20-06-2023 17:00:31
+ConsoleApp1.InsufficientFundsException
+
+Stack Trace:
+   at ConsoleApp1.FundsTransfer.Transfer(BankAccount source, BankAccount destination, Double amount) in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 83
+   at ConsoleApp1.Program.Main() in C:\Users\227588\Desktop\C# Udemy\Practicals\ConsoleApp1\ConsoleApp1\Program.cs:line 120
+
+Message:
+Insufficient balance in the source account. The current balance is 5000
+
+
+
